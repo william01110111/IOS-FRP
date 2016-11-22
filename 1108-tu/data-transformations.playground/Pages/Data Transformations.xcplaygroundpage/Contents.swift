@@ -24,4 +24,32 @@
  10. recursive versions of `map`, `filter` and `reduce` 😏
  */
 
+func myMap<T, U>(array: [T], transform: (T) -> (U)) -> [U] {
+	var out = [U]()
+	for i in array {
+		out.append(transform(i))
+	}
+	return out
+}
+
+func myFilter<T>(array: [T], isIncluded: (T) -> Bool) -> [T] {
+	
+	var out = [T]()
+	for i in array {
+		if (isIncluded(i)){
+			out.append(i)
+		}
+	}
+	return out
+}
+
+func myReduce<T, U>(array: [T], initial: U, combine: (U, T) -> (U)) -> U {
+	
+	var val=initial
+	
+	for i in array {
+		val=combine(val, i)
+	}
+	return val
+}
 

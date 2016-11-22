@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B30B43450C786E2639DF5FA /* Pods_TicTacToe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060826DAD93440591B1E6A84 /* Pods_TicTacToe.framework */; };
+		3DE2A08B1DDB9CD30060F13C /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE2A08A1DDB9CD30060F13C /* HistoryVC.swift */; };
 		559526F51DA4A79D0052F944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559526F41DA4A79D0052F944 /* AppDelegate.swift */; };
 		559526F71DA4A79D0052F944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559526F61DA4A79D0052F944 /* ViewController.swift */; };
 		559526FA1DA4A79D0052F944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559526F81DA4A79D0052F944 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		060826DAD93440591B1E6A84 /* Pods_TicTacToe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicTacToe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE2A08A1DDB9CD30060F13C /* HistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
 		559526F11DA4A79D0052F944 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		559526F41DA4A79D0052F944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		559526F61DA4A79D0052F944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				55CE6E6D1DA5526A0095A0CF /* Model */,
 				559526F41DA4A79D0052F944 /* AppDelegate.swift */,
 				559526F61DA4A79D0052F944 /* ViewController.swift */,
+				3DE2A08A1DDB9CD30060F13C /* HistoryVC.swift */,
 				559526F81DA4A79D0052F944 /* Main.storyboard */,
 				559526FB1DA4A79D0052F944 /* Assets.xcassets */,
 				559526FD1DA4A79D0052F944 /* LaunchScreen.storyboard */,
@@ -247,6 +250,7 @@
 				559526F51DA4A79D0052F944 /* AppDelegate.swift in Sources */,
 				55CE6E751DA557440095A0CF /* Player.swift in Sources */,
 				55CE6E791DA557C60095A0CF /* Board.swift in Sources */,
+				3DE2A08B1DDB9CD30060F13C /* HistoryVC.swift in Sources */,
 				55CE6E771DA557510095A0CF /* Field.swift in Sources */,
 				55CE6E731DA552E70095A0CF /* FieldView.swift in Sources */,
 			);
