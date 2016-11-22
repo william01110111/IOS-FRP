@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D135D991DE4D6DE00978272 /* SearchRepoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D135D981DE4D6DE00978272 /* SearchRepoViewController.swift */; };
 		551AA2F21DE3DFBB00FE1895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551AA2F11DE3DFBB00FE1895 /* AppDelegate.swift */; };
 		551AA2F41DE3DFBB00FE1895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551AA2F31DE3DFBB00FE1895 /* ViewController.swift */; };
 		551AA2F71DE3DFBB00FE1895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551AA2F51DE3DFBB00FE1895 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D135D981DE4D6DE00978272 /* SearchRepoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRepoViewController.swift; sourceTree = "<group>"; };
 		551AA2EE1DE3DFBB00FE1895 /* RxIssuesViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxIssuesViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		551AA2F11DE3DFBB00FE1895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		551AA2F31DE3DFBB00FE1895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				551AA3091DE3E54900FE1895 /* LoginViewController.swift */,
+				3D135D981DE4D6DE00978272 /* SearchRepoViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				551AA2F41DE3DFBB00FE1895 /* ViewController.swift in Sources */,
 				551AA2F21DE3DFBB00FE1895 /* AppDelegate.swift in Sources */,
 				551AA3181DE4B67700FE1895 /* String+Util.swift in Sources */,
+				3D135D991DE4D6DE00978272 /* SearchRepoViewController.swift in Sources */,
 				551AA30D1DE4043E00FE1895 /* User.swift in Sources */,
 				551AA3071DE3DFE800FE1895 /* RxGitHubAPI.swift in Sources */,
 				551AA30F1DE4049300FE1895 /* Repository.swift in Sources */,
@@ -320,6 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RxIssuesViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.nikolasburk.RxIssuesViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -332,6 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RxIssuesViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.nikolasburk.RxIssuesViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";

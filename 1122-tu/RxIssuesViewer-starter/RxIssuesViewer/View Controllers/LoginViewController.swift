@@ -9,12 +9,23 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-  
-  @IBAction func loginButtonPressed() {
-    let urlString = RxGitHubAPI.loginURL()
-    if let url = URL(string: urlString) {
-      UIApplication.shared.open(url, options: [:])
-    }
-  }
-  
+	
+	@IBAction func loginButtonPressed() {
+		let urlString = RxGitHubAPI.loginURL()
+		if let url = URL(string: urlString) {
+			UIApplication.shared.open(url, options: [:], completionHandler:  {input in
+//				print(#function)
+			})
+		}
+	}
+	
+	/*
+	override func viewWillAppear(_ animated: Bool) {
+		print("\n\n\n" + "HELLO" + "\n\n\n")
+		if RxGitHubAPI.userAccessToken != "" {
+			self.performSegue(withIdentifier: "loggedInSegue", sender: self)
+		}
+	}
+	*/
+	
 }
